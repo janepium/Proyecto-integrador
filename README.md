@@ -74,8 +74,8 @@ Abrir el notebook principal (`experimento_ids_clasico_cuantico.ipynb`) en **Kagg
 
 ### Opción 2: local
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_REPOSITORIO>
+git clone https://github.com/janepium/Proyecto-integrador.git
+cd Proyecto-integrador
 python -m venv .venv && source .venv/bin/activate   # en Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 jupyter notebook experimento_ids_clasico_cuantico.ipynb
